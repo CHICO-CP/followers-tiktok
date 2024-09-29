@@ -19,7 +19,7 @@ Before running the script, make sure you have the following installed:
    git clone https://github.com/CHICO-CP/followers-tiktok.git
    ```
    ```bash
-   cd tu_repositorio
+   cd followers-tiktok
    ```
 
 2. Install the necessary dependencies:
