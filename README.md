@@ -1,41 +1,41 @@
 # TikTok Automation Script
 
-Este es un script de automatización que utiliza Pyppeteer para interactuar con TikTok. Permite iniciar sesión en TikTok, buscar un usuario, seguirlo, dar "me gusta" a sus videos y realizar comentarios predefinidos.
+This is an automation script that Pyppeteer uses to interact with TikTok. It allows you to log in to TikTok, search for a user, follow them, like their videos, and make predefined comments.
 
-## Requisitos
+## Requirements
 
-Antes de ejecutar el script, asegúrate de tener lo siguiente instalado:
+Before running the script, make sure you have the following installed:
 
 - Python 3.x
 - Pyppeteer (`pip install pyppeteer`)
-- asyncio (viene preinstalado con Python 3.7+)
-- Archivos JSON con la información de los usuarios y los comentarios.
+- asyncio (comes pre-installed with Python 3.7+)
+- JSON files with user information and comments.
 
-## Instalación
+## Installation
 
-1. Clona el repositorio:
+1. Clone the repository:
 
    ```bash
-   git clone https://github.com/tu_usuario/tu_repositorio.git
+   git clone https://github.com/CHICO-CP/followers-tiktok.git
    ```
    ```bash
    cd tu_repositorio
    ```
 
-2. Instala las dependencias necesarias:
+2. Install the necessary dependencies:
 ```bash
 pip install pyppeteer
 ```
 
-3. Crea los archivos JSON de usuarios y comentarios ejecutando el script. Los archivos se generan automáticamente si no existen.
+3. Create the JSON files of users and comments by running the script. Files are automatically generated if they don't exist.
 
 ```bash
 python TikTok-followers.py
 ```
 
-Uso
+Use
 
-1. Modifica el archivo tiktok_users.json con tus credenciales de usuario TikTok:
+1. Modify the tiktok_users.json file with your TikTok user credentials:
 
 ```bash
 {
@@ -45,7 +45,7 @@ Uso
 }
 ```
 
-2. Modifica el archivo comments.json con los comentarios que quieres que se publiquen:
+2. Edit the comments.json file with the comments you want to be posted:
 
 ```bash
 {
@@ -57,46 +57,47 @@ Uso
 }
 ```
 
-3. Ejecuta el script:
+3. Run the script:
 
 ```bash
 python script.py
 ```
-Se te pedirá que ingreses el nombre del usuario que deseas buscar en TikTok.
+You'll be asked to enter the name of the user you want to search for on TikTok.
 
 
 
-# Funcionalidades
+# Functionality
 
-**Iniciar sesión en TikTok: Usa las credenciales proporcionadas en el archivo tiktok_users.json.**
+**Log in to TikTok: Use the credentials provided in the tiktok_users.json file.**
 
-**Buscar un usuario: Busca el nombre de usuario que ingreses cuando se te solicite.**
+**Find a user: Find the username you enter when prompted.**
 
-**Seguir al usuario: Sigue al usuario encontrado.**
+**Follow User: Follow the found user.**
 
-**Interactuar con videos: Da "me gusta" a los videos del usuario.**
+**Interact with videos: Like the user's videos.**
 
-**Comentar en videos: Publica comentarios aleatorios de una lista predefinida en el archivo comments.json.**
-
-
-# Archivos JSON
-
-tiktok_users.json: Contiene las credenciales de inicio de sesión de los usuarios de TikTok.
-
-comments.json: Contiene los comentarios que el script puede publicar en los videos de TikTok.
+**Comment on videos: Post random comments from a predefined list in the comments.json file.**
 
 
-Ambos archivos se crean automáticamente si no existen. Asegúrate de editarlos con la información adecuada.
+# JSON files
 
-# Advertencia
+tiktok_users.json: It contains the login credentials of TikTok users.
 
-Este script está destinado únicamente a fines educativos. El uso no autorizado de bots o scripts de automatización en plataformas como TikTok puede violar sus políticas de uso. Usa este script bajo tu propia responsabilidad.
+comments.json: It contains the comments that the script can post on TikTok videos.
 
-#Contribuciones
 
-Si tienes sugerencias o mejoras, no dudes en hacer un fork del proyecto y enviar un pull request.
+Both files are created automatically if they do not exist. Make sure to edit them with the proper information.
+
+# Warning
+
+This script is intended for educational purposes only. Unauthorized use of bots or automation scripts on platforms like TikTok may violate their usage policies. Use this script at your own risk.
+
+# Contributions
+
+If you have suggestions or improvements, do not hesitate to fork the project and send a pull request.
 
 # Developer
 
 **Developer:** @Gh0stDeveloper
+
 **Channel:** @TEAM_CHICO_CP
