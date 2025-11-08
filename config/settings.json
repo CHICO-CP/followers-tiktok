@@ -1,1 +1,28 @@
-
+{
+  "safety_limits": {
+    "max_actions_per_hour": 30,
+    "max_follows_per_day": 50,
+    "max_likes_per_day": 150,
+    "max_comments_per_day": 30,
+    "daily_usage_hours": 6,
+    "action_cooldown_min": 2,
+    "action_cooldown_max": 8
+  },
+  "ai_settings": {
+    "comment_generation": true,
+    "behavior_simulation": true,
+    "sentiment_analysis": true,
+    "content_aware_comments": true
+  },
+  "proxy_settings": {
+    "enabled": true,
+    "rotation_interval": 30,
+    "validation_check": true,
+    "health_threshold": 50
+  },
+  "performance_settings": {
+    "track_metrics": true,
+    "generate_reports": true,
+    "optimization_enabled": true
+  }
+}
