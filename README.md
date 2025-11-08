@@ -1,4 +1,4 @@
-# 🤖 TikTok Automation Suite
+# 🤖 followers-tiktok
 
 <div align="center">
 
@@ -309,8 +309,11 @@ Documentation Resources
 # 🎓 Developer Information
 
 Lead Developer: Ghost Developer
+
 GitHub: [CHICO-CP](https://github.com/CHICO-CP)
+
 Telegram Channel: [GhostDev](t.me/GhostDev)
+
 Community Group: [CodeBreakersHub](t.me/CodeBreakersHub)
 
 Research Focus
