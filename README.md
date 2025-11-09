@@ -312,7 +312,7 @@ Lead Developer: Ghost Developer
 
 GitHub: [CHICO-CP](https://github.com/CHICO-CP)
 
-Telegram Channel: [GhostDev](t.me/GhostDev)
+Telegram Channel: [GhostDev](t.me/GhostDeve)
 
 Community Group: [CodeBreakersHub](t.me/CodeBreakersHub)
 
